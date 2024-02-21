@@ -1,0 +1,64 @@
+/* commend shared style */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+     padding: 10px 10px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     background-color: #FD6E0A;
+     font-size: 20px;
+     font-weight: 700;
+     color: white;
+} 
+.btn-primary:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 170px;
+}
+.nav-title{ 
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+   list-style: none;
+   margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:#474747 ;
+}
+
+        /* header style */ 
+.header{
+    background-color: #FFF8F3;
+    
+}
+.banner{
+    padding: 40px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+#self-image{
+    width: 400px;
+}
