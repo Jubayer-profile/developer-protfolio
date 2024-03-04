@@ -18,6 +18,7 @@ body {
      font-size: 20px;
      font-weight: 700;
      color: white;
+     border: 0px;
 } 
 .btn-primary:hover{
     background-color: antiquewhite;
@@ -200,6 +201,18 @@ footer{
     font-size: 10SSpx;
     color: #312c2c;
 }
-#contact{
+.social-links ,a {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
     display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    font-size: 18px;
 }
