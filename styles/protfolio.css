@@ -4,8 +4,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    font-variation-settings:
-    "wdth" 100;
+    font-variation-settings:"wdth" 100;
 }
 .text-primary{
     color: #FD6E0A;
@@ -65,6 +64,7 @@ nav a{
 }
 #self-image{
     width: 500px;
+    
 }
 .banner-greating{
     font-size: 45px;
@@ -215,4 +215,43 @@ footer{
     border: 0;
     width: 100%;
     font-size: 18px;
+}
+
+ @media screen and (max-width: 576px) {
+    .header{
+        background-image: none;
+    }
+     nav,
+    .skill-container,
+    .banner,
+     .resume-container,
+     .about-info-container, 
+    footer {
+        flex-direction: column; 
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner,
+    .what-i-do{
+        padding: 20px; 
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .footer-colum{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    .banner #self-image{
+        width: 100%;
+    }
+
+
 }
